@@ -1109,6 +1109,7 @@
 				GCC_PREFIX_HEADER = "RNCryptor OS X/RNCryptor OS X-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "RNCryptor OS X/RNCryptor OS X-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.robnapier.${PRODUCT_NAME:rfc1034identifier}";
@@ -1139,6 +1140,7 @@
 				GCC_PREFIX_HEADER = "RNCryptor OS X/RNCryptor OS X-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				INFOPLIST_FILE = "RNCryptor OS X/RNCryptor OS X-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.robnapier.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = RNCryptor;
